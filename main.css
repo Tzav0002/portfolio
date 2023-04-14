@@ -1,0 +1,100 @@
+body {
+    overflow-x: hidden;
+}
+
+#header-container {
+    background-color: #913594;
+    margin-bottom: -10px;
+}
+
+li,
+a {
+    font-size: 2em;
+}
+
+ul {
+    border-style: solid;
+    border-color: #913594;
+    width: 101%;
+    border-right: none;
+}
+
+main {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+}
+
+.banner-picture{
+    opacity: 0.5;
+}
+
+#coin{
+    margin-top: 1rem;
+    margin-bottom: 1rem;   
+}
+
+#alien{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#poster{
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+#send-button{
+    background-color: #913594;
+    color: white;
+}
+
+#send-button:focus{
+    background-color: white;
+    color: #913594;
+}
+
+#name, #email, #message{
+    width: 10000px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+
+#footer-container {
+    background-color: #913594;
+    margin: 0px;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width:480px){
+    li,
+a {
+    font-size: 1.2em;
+}
+
+#poster{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+}
+
+@media screen and (max-width:1000px){
+    #poster{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
